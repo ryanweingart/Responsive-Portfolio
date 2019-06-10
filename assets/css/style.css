@@ -137,7 +137,7 @@ footer {
    float: left;
    overflow: auto;
    position: relative;
-   margin: 20px 20px 25px 0;
+   margin: 20px 40px 25px 0;
    margin-
    width: 300px;
    height: auto;
@@ -248,12 +248,5 @@ button:hover {
         justify-content: center;
         padding-bottom: 40px;
         }
-
-    .projects img {
-        width: 100%;
-    }
-    
-    .projects {
-        width: 100%;
-    }
+        
 }
