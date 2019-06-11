@@ -148,7 +148,7 @@ footer {
 }
 
 .projects img {
-    width: 400px;
+    width: 325px;
     height: auto;
 }
 
@@ -219,6 +219,7 @@ button:hover {
         width: 100%;
         margin: 40px 20px;
     }
+  
 }
 
 @media screen and (max-width: 640px) {
@@ -245,8 +246,8 @@ button:hover {
         padding: 0;
         }
 
-        .portfolioContent {
-            display: flex;
-            justify-content: center;
+    .portfolioContent {
+        display: flex;
+        justify-content: center;
         }
 }
