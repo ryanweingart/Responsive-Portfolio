@@ -47,13 +47,14 @@ body {
 .mainContainer {
     color: #777777;
     line-height: 30px;
-    width: 960px;
+    width: 100%;
     margin: 0 auto;
     border: 1px solid #dddddd;
     background-color: #ffffff;
     margin-top: 40px;
     padding: 10px 30px 30px;
     margin-bottom: 100px;
+
 }
 
 #nav {
@@ -132,15 +133,16 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
+.portfolioContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 .projects {
    float: left;
    overflow: auto;
    position: relative;
    margin: 20px 40px 25px 0;
-   margin-
-   width: 300px;
-   height: auto;
 }
 
 .projects img {
@@ -218,9 +220,6 @@ button:hover {
         margin: 40px 0;
     }
 
-    .projects:nth-child(even) {
-        /* margin-left: 100px; */
-    }
 }
 
 @media screen and (max-width: 640px) {
