@@ -133,20 +133,22 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 .portfolioContent {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
+
 .projects {
    float: left;
    overflow: auto;
    position: relative;
-   margin: 20px 40px 25px 0;
+   margin: 20px 0 40px 0;
 }
 
 .projects img {
-    width: 300px;
+    width: 400px;
     height: auto;
 }
 
@@ -203,9 +205,12 @@ button:hover {
     }
 
     .mainContainer {
-        width: 750px;
+        /* width: 750px; */
         margin: 40px 0;
     }
+
+  
+
 }
 
 @media screen and (max-width: 768px) {
