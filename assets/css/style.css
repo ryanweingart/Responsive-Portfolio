@@ -207,9 +207,6 @@ button:hover {
         margin: 40px 40px;
         width: 100%;
     }
-
-  
-
 }
 
 @media screen and (max-width: 768px) {
@@ -222,16 +219,13 @@ button:hover {
         width: 100%;
         margin: 40px 20px;
     }
-
 }
 
 @media screen and (max-width: 640px) {
 
     .container {
         display: flex;
-        /* flex-direction: column; */
         flex-wrap: wrap;
-        /* justify-content: center; */
     }
     
     #header {
@@ -249,5 +243,10 @@ button:hover {
     #nav {
         margin: 0 auto;
         padding: 0;
+        }
+
+        .portfolioContent {
+            display: flex;
+            justify-content: center;
         }
 }
