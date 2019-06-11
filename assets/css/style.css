@@ -199,14 +199,13 @@ button:hover {
 
 @media screen and (max-width: 980px) {
 
-    .container {
-        width: 100%;
-        padding: 0 40px;
+    #header {
+        padding: 0 50px;
     }
 
     .mainContainer {
-        /* width: 750px; */
-        margin: 40px 0;
+        margin: 40px 40px;
+        width: 100%;
     }
 
   
@@ -215,14 +214,13 @@ button:hover {
 
 @media screen and (max-width: 768px) {
 
-    .container {
-        width: 100%;
+    #header {
         padding: 0 20px;
-        }
+    }
 
     .mainContainer {
         width: 100%;
-        margin: 40px 0;
+        margin: 40px 20px;
     }
 
 }
@@ -233,12 +231,12 @@ button:hover {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 100%;
     }
     
     #header {
         height: 150px;
-        width: 100%
+        padding: 0;
+
     }
     
     #name {
@@ -252,5 +250,4 @@ button:hover {
         justify-content: center;
         padding-bottom: 40px;
         }
-        
 }
