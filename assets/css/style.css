@@ -235,6 +235,8 @@ button:hover {
     }
     
     #header {
+        text-align: center;
+        position: static;
         height: 180px;
         padding: 0;
 
